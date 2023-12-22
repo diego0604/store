@@ -7,6 +7,7 @@ public class HomeController {
     @GetMapping("/")
     public String GetHome(){
 
-        return "index";
+        return "Index";
     }
+
 }
