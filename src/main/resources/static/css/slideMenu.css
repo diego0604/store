@@ -1,4 +1,4 @@
-*{box-sizing: border-box;}
+
 .flex-direction-column{
     flex-direction: column;
 }
@@ -22,4 +22,8 @@
         bottom: -15%;
         width: 100%;
         left: 0;
+    }
+
+    aside.sticky{
+        position: absolute;
     }

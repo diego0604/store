@@ -25,9 +25,25 @@
 </head>
 <body>
 <div>
-    <header class="sticky" id="menu-container" th:insert="~{fragments/Menu :: menu}">
-    </header>
-    <main id="container">
+    <aside class="sticky" id="menu-container" th:insert="~{fragments/Menu :: menu}">
+    </aside>
+    <main id="container-main">
+        <header class="card p-3">
+            <div class="row">
+                <h2 class="m-0">Configuracion</h2>
+            </div>
+        </header>
+
+        <section id="content-container">
+            <div class="card" style="height: 100%;">
+                <div class="container-fluid" style="margin: 2em;">
+
+                </div>
+                <div class="container" th:insert="~{fragments/HotelConfiguration/Users/UserPage :: UserPage}">
+
+                </div>
+            </div>
+        </section>
 
     </main>
 
