@@ -19,8 +19,8 @@ height: 100%;}
 
 }
 
-.btn{
-  background-color: #3b4863;
+.input-group-append > .btn{
+    background-color: #3b4863;
     color: white !important;
     border: 1px solid #3b4863;
     border-radius:  0 5px 5px 0;}
